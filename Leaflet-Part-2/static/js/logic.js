@@ -22,9 +22,9 @@ let satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/service
 
 // Update baseMaps object to include all three base layers
 let baseMaps = {
+  "Satellite": satellite,
   "Street Map": streetMap,
-  "Topographic Map": topoMap,
-  "Satellite": satellite
+  "Topographic Map": topoMap
 };
 
 let overlays = {
@@ -36,14 +36,11 @@ let overlays = {
 let map = L.map("map", {
   center: [28.75, -20],
   zoom: 3,
-  layers: [streetMap, earthquakes]
+  layers: [satellite, earthquakes]
 });
 
 // Step 5: Add layer controls
 L.control.layers(baseMaps, overlays).addTo(map);
-
-// Then add the 'basemap' tile layer to the map.
-basemap.addTo(map);
 
 // Make a request that retrieves the earthquake geoJSON data.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function (data) {

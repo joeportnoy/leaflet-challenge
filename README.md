@@ -23,6 +23,13 @@ This project visualizes earthquake and tectonic plate data on an interactive map
 
 ---
 
+## 🚀 Live Demo Links
+
+- [Part 1 - Earthquake Visualization](https://joeportnoy.github.io/leaflet-challenge/Leaflet-Part-1/)
+- [Part 2 - Earthquakes + Tectonic Plates](https://joeportnoy.github.io/leaflet-challenge/Leaflet-Part-2/)
+
+---
+
 ## ⚙️ How It Works
 
 - **Leaflet.js** is used to render the map
