@@ -15,11 +15,12 @@ This project visualizes earthquake and tectonic plate data on an interactive map
 
 ## 📑 Table of Contents
 
-1. [How It Works](#how-it-works)
-2. [Screenshots](#screenshots)
-3. [Folder Structure](#folder-structure)
-4. [Data Sources](#data-sources)
-5. [Credits](#credits)
+- [Live Demo Links](#-live-demo-links)
+- [How It Works](#how-it-works)
+- [Screenshots](#screenshots)
+- [Folder Structure](#folder-structure)
+- [Data Sources](#data-sources)
+- [Credits](#credits)
 
 ---
 
